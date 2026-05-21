@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第三章作业 - 播放器图标</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(90deg, #5a3a66, #b88fb8, #5a3a66);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .player-card {
+            width: 220px;
+            height: 220px;
+            background: linear-gradient(180deg, #9a5b8c, #5a3a66);
+            border-radius: 16px;
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .player-frame {
+            width: 140px;
+            height: 115px;
+            background-color: #2b1a2b;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .player-panel {
+            width: 115px;
+            height: 90px;
+            background: linear-gradient(135deg, #f5b8a0, #9a5b6c);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .play-circle {
+            width: 60px;
+            height: 60px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .play-triangle {
+            width: 0;
+            height: 0;
+            border-top: 14px solid transparent;
+            border-bottom: 14px solid transparent;
+            border-left: 22px solid #2b1a2b;
+        }
+    </style>
+</head>
+<body>
+    <div class="player-card">
+        <div class="player-frame">
+            <div class="player-panel">
+                <div class="play-circle">
+                    <div class="play-triangle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
