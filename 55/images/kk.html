@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>网上书城-注册新用户</title>
+    <style>
+
+        .register-box {
+            width: 400px;
+            margin: 50px auto;
+            border: 1px solid #999;
+            background-color: #e8e8e8;
+        }
+
+        .title-bar {
+            background-color: #666;
+            color: #fff;
+            text-align: center;
+            padding: 8px;
+            font-size: 18px;
+        }
+
+        .sub-title {
+            padding: 6px 15px;
+            background: #ddd;
+            border-bottom: 1px solid #aaa;
+        }
+
+        form table {
+            margin: 15px auto;
+        }
+        td {
+            padding: 6px 8px;
+        }
+        input {
+            width: 200px;
+            padding: 3px;
+        }
+
+        .submit-btn {
+            text-align: center;
+            padding: 10px;
+        }
+        .submit-btn input {
+            width: 120px;
+            background: #666;
+            color: white;
+            border: none;
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="register-box">
+
+        <div class="title-bar">网上书城</div>
+
+        <div class="sub-title">➕ 注册新用户</div>
+
+
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td>用户名</td>
+                    <td><input type="text" name="username" required></td>
+                </tr>
+                <tr>
+                    <td>密码</td>
+                    <td><input type="password" name="pwd" required></td>
+                </tr>
+                <tr>
+                    <td>确认密码</td>
+                    <td><input type="password" name="repwd" required></td>
+                </tr>
+                <tr>
+                    <td>电子邮箱</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+            </table>
+            <div class="submit-btn">
+                <input type="submit" value="注册新用户">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
